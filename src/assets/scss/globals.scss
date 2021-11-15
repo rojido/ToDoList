@@ -1,0 +1,23 @@
+/* Global Styles */
+.view_container {
+    background: $main-bg-color;
+    height: 100%;
+    margin: 0 auto;
+    padding: 2em;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.container_title {
+  font-size: 28px;
+  margin-bottom: 1em;
+}
+
+@media screen and (max-width: $media-md) {
+  .container_title {
+    font-size: 22px;
+  }
+}
